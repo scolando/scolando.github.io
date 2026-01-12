@@ -4,7 +4,42 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am a Ph.D. student in Carnegie Mellon’s Statistics & Data Science department. In May 2024, I graduated magna cum laude from Pomona College with a double major in mathematics and philosophy. Currently, I am working with Nynke Niezink and Eva Jaspers to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. At Pomona, I primarily worked with Jo Hardin, conducting research in both statistical genomics and data science ethics pedagogy. More information on my current and previous research projects can be found on my research page.\nOutside of research, I enjoy teaching statistics and data science. This Spring, I will be a TA for 36-402: Undergraduate Advanced Data Analysis, which is a capstone course for undergraduate students in CMU’s Statistics & Data Science department. A list of my previous teaching experiences and education-related research projects can be found on my teaching page.\nAnother primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D. in Statistics. For more of my interests, check out my notebooks page."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n{{&lt; iconify zondicons:education l &gt;}} Ph.D. in Statistics, Carnegie Mellon University, 2024-2029 (expected)\n{{&lt; iconify zondicons:education l &gt;}} B.A. in Mathematics and Philosophy, Pomona College, 2020-2024"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n{{&lt; iconify material-symbols:mail-sharp l &gt;}} scolando@andrew.cmu.edu"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "As a Graduate Teaching Assistant at Carnegie Mellon University:\n\n36-402: Undergraduate Advanced Data Analysis (Spring 2026)\n36-707: Regression Analysis, guest lectured on penalized regression (Fall 2025)\nCarnegie Mellon Sports Analytics Camp, co-taught four lectures to REU students (Summer 2025)\n36-226: Introduction to Statistical Inference, Head TA (Spring 2025)\n36-600: Overview of Statistical Learning and Modeling (Fall 2024)\n\nAs a Undergraduate Teaching Assistant at Pomona College:\n\nMATH158: Statistical Linear Models (Spring 2024)\nMATH058B: Introduction to Biostatistics (Spring 2023)\nID001: First-Year Interdisciplinary Seminar: I Disagree (Fall 2023)\nBIOL040: Introductory Genetics with Lab (Fall 2022)\nMATH060: Linear Algebra (Fall 2021)\n1-2-1 Summer Bridge Program (Summer 2021)"
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "",
+    "text": "As a Graduate Teaching Assistant at Carnegie Mellon University:\n\n36-402: Undergraduate Advanced Data Analysis (Spring 2026)\n36-707: Regression Analysis, guest lectured on penalized regression (Fall 2025)\nCarnegie Mellon Sports Analytics Camp, co-taught four lectures to REU students (Summer 2025)\n36-226: Introduction to Statistical Inference, Head TA (Spring 2025)\n36-600: Overview of Statistical Learning and Modeling (Fall 2024)\n\nAs a Undergraduate Teaching Assistant at Pomona College:\n\nMATH158: Statistical Linear Models (Spring 2024)\nMATH058B: Introduction to Biostatistics (Spring 2023)\nID001: First-Year Interdisciplinary Seminar: I Disagree (Fall 2023)\nBIOL040: Introductory Genetics with Lab (Fall 2022)\nMATH060: Linear Algebra (Fall 2021)\n1-2-1 Summer Bridge Program (Summer 2021)"
+  },
+  {
+    "objectID": "teaching.html#education-related-research",
+    "href": "teaching.html#education-related-research",
+    "title": "Teaching",
+    "section": "Education-Related Research",
+    "text": "Education-Related Research\n\nAnalyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models. Joint work with Erin Franke and Alex Reinhart. Presented work at the Research Satellite poster session during the United States Conference on Teaching Statistics, July 2025. We are currently working on the paper!\nTeaching Data Cleaning and Wrangling with R’s data.table Package. Joint work with Erin Franke. Presented at Posters and Beyond during United States Conference on Teaching Statistics, July 2025.\nPhilosophy within Data Science Ethics Courses. Joint work with Jo Hardin. Published in the Journal of Statistics and Data Science Education, 32(4), 2024."
   },
   {
     "objectID": "index.html",
