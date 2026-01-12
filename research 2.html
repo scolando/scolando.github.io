@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Sara Colando</title>
+<title>Research – Sara Colando</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/scotty-dog.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,7 +44,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-507a4df18b4f518f1be33bbfeaf1fcfa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-author','listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -96,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
 </ul>
@@ -124,7 +183,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Research</h1>
+<p class="subtitle lead">Some of my current and recent research projects.</p>
 </div>
 
 
@@ -141,22 +201,190 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am a Ph.D.&nbsp;student in Carnegie Mellon’s Statistics &amp; Data Science department. In May 2024, I graduated magna cum laude from Pomona College with a double major in mathematics and philosophy. Currently, I am working with <a href="https://www.stat.cmu.edu/~nynke/">Nynke Niezink</a> and <a href="https://www.uu.nl/staff/EJaspers">Eva Jaspers</a> to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. At Pomona, I primarily worked with <a href="https://hardin47.netlify.app">Jo Hardin</a>, conducting research in both statistical genomics and data science ethics pedagogy. More information on my current and previous research projects can be found on my <a href="./research.html">research page</a>.</p>
-<p>Outside of research, I enjoy teaching statistics and data science. This Spring, I will be a TA for 36-402: Undergraduate Advanced Data Analysis, which is a capstone course for undergraduate students in CMU’s Statistics &amp; Data Science department. A list of my previous teaching experiences and education-related research projects can be found on my <a href="./teaching.html">teaching page</a>.</p>
-<p>Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D.&nbsp;in Statistics. For more of my interests, check out my <a href="./notebooks.html">notebooks page</a>.</p>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><iconify-icon role="img" inline="" icon="zondicons:education" style="font-size: l;" aria-label="Icon education from zondicons Iconify.design set." title="Icon education from zondicons Iconify.design set."></iconify-icon> Ph.D.&nbsp;in Statistics, Carnegie Mellon University, 2024-2029 <em>(expected)</em></p>
-<p><iconify-icon role="img" inline="" icon="zondicons:education" style="font-size: l;" aria-label="Icon education from zondicons Iconify.design set." title="Icon education from zondicons Iconify.design set."></iconify-icon> B.A. in Mathematics and Philosophy, Pomona College, 2020-2024</p>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p><iconify-icon role="img" inline="" icon="material-symbols:mail-sharp" style="font-size: l;" aria-label="Icon mail-sharp from material-symbols Iconify.design set." title="Icon mail-sharp from material-symbols Iconify.design set."></iconify-icon> <a href="mailto:scolando@andrew.cmu.edu">scolando@andrew.cmu.edu</a></p>
+<section id="research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1764565200000" data-listing-file-modified-sort="1767465398902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
+<div class="thumbnail"><a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/avoidance-ties/avoidance-ties.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">Why Do Students Avoid Each Other? Investigating Positive and Negative Network Effects</a>
+</h3>
+<div class="delink listing-description"><a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/avoidance-ties/avoidance-ties.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2025
+</div>
+<div class="listing-author">
+Sara Colando, Nynke Niezink, Eva Jaspers
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1754020800000" data-listing-file-modified-sort="1755983133431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<div class="thumbnail"><a href="./research/chip-seq/chip-seq.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/chip-seq/chip-seq.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/chip-seq/chip-seq.html" class="no-external">Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions</a>
+</h3>
+<div class="delink listing-description"><a href="./research/chip-seq/chip-seq.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/chip-seq/chip-seq.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/chip-seq/chip-seq.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2025
+</div>
+<div class="listing-author">
+Sara Colando, Danae Schulz, Jo Hardin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1767463507009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
+<div class="thumbnail"><a href="./research/student-llms/students-llms.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/student-llms/students-llms.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/student-llms/students-llms.html" class="no-external">Analyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models</a>
+</h3>
+<div class="delink listing-description"><a href="./research/student-llms/students-llms.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/student-llms/students-llms.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/student-llms/students-llms.html" class="no-external">
+<div class="listing-date">
+Jul 1, 2025
+</div>
+<div class="listing-author">
+Sara Colando, Erin Franke, Alex Reinhart
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1727755200000" data-listing-file-modified-sort="1755983161253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<div class="thumbnail"><a href="./research/data-ethics/data-ethics.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/data-ethics/data-ethics.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/data-ethics/data-ethics.html" class="no-external">Philosophy within Data Science Ethics Courses</a>
+</h3>
+<div class="delink listing-description"><a href="./research/data-ethics/data-ethics.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/data-ethics/data-ethics.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/data-ethics/data-ethics.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Sara Colando, Jo Hardin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1688184000000" data-listing-file-modified-sort="1747079892000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="thumbnail"><a href="./research/horses/horses.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/horses/horses.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/horses/horses.html" class="no-external">Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses</a>
+</h3>
+<div class="delink listing-description"><a href="./research/horses/horses.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/horses/horses.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/horses/horses.html" class="no-external">
+<div class="listing-date">
+Jul 1, 2023
+</div>
+<div class="listing-author">
+Sara Colando, Jonathan Pipping, Kristopher Wilson
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1656648000000" data-listing-file-modified-sort="1747079892000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
+<div class="thumbnail"><a href="./research/tumor-mri/tumor-mri.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:research/tumor-mri/tumor-mri.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/tumor-mri/tumor-mri.html" class="no-external">Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation</a>
+</h3>
+<div class="delink listing-description"><a href="./research/tumor-mri/tumor-mri.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:research/tumor-mri/tumor-mri.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research/tumor-mri/tumor-mri.html" class="no-external">
+<div class="listing-date">
+Jul 1, 2022
+</div>
+<div class="listing-author">
+Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -230,7 +458,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/sara\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

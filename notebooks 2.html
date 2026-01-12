@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Sara Colando</title>
+<title>Notebooks – Sara Colando</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,7 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-507a4df18b4f518f1be33bbfeaf1fcfa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -118,13 +117,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Notebooks</h1>
+<p class="subtitle lead">An ongoing list of notebooks on statistics topics that interest me and a grab bag of other posts.</p>
 </div>
 
 
@@ -141,20 +143,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am a Ph.D.&nbsp;student in Carnegie Mellon’s Statistics &amp; Data Science department. In May 2024, I graduated magna cum laude from Pomona College with a double major in mathematics and philosophy. Currently, I am working with <a href="https://www.stat.cmu.edu/~nynke/">Nynke Niezink</a> and <a href="https://www.uu.nl/staff/EJaspers">Eva Jaspers</a> to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. At Pomona, I primarily worked with <a href="https://hardin47.netlify.app">Jo Hardin</a>, conducting research in both statistical genomics and data science ethics pedagogy. More information on my current and previous research projects can be found on my <a href="./research.html">research page</a>.</p>
-<p>Outside of research, I enjoy teaching statistics and data science. This Spring, I will be a TA for 36-402: Undergraduate Advanced Data Analysis, which is a capstone course for undergraduate students in CMU’s Statistics &amp; Data Science department. A list of my previous teaching experiences and education-related research projects can be found on my <a href="./teaching.html">teaching page</a>.</p>
-<p>Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D.&nbsp;in Statistics. For more of my interests, check out my <a href="./notebooks.html">notebooks page</a>.</p>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><iconify-icon role="img" inline="" icon="zondicons:education" style="font-size: l;" aria-label="Icon education from zondicons Iconify.design set." title="Icon education from zondicons Iconify.design set."></iconify-icon> Ph.D.&nbsp;in Statistics, Carnegie Mellon University, 2024-2029 <em>(expected)</em></p>
-<p><iconify-icon role="img" inline="" icon="zondicons:education" style="font-size: l;" aria-label="Icon education from zondicons Iconify.design set." title="Icon education from zondicons Iconify.design set."></iconify-icon> B.A. in Mathematics and Philosophy, Pomona College, 2020-2024</p>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p><iconify-icon role="img" inline="" icon="material-symbols:mail-sharp" style="font-size: l;" aria-label="Icon mail-sharp from material-symbols Iconify.design set." title="Icon mail-sharp from material-symbols Iconify.design set."></iconify-icon> <a href="mailto:scolando@andrew.cmu.edu">scolando@andrew.cmu.edu</a></p>
+<ul>
+<li><p><a href="./notebooks/understanding-fairness-metrics.html">Common Outcome-Based Algorithmic Fairness Metrics</a> – July 24, 2025 [still working on]</p></li>
+<li><p><a href="./notebooks/DA-exam-materials.html">Data Analysis Exam Thoughts and Materials</a> – June 9, 2025</p></li>
+<li><p><a href="./notebooks/tidytuesday.html">TidyTuesday Creations</a> – January 30, 2025</p></li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -230,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/sara\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
