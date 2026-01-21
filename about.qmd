@@ -1,0 +1,23 @@
+---
+title: "About"
+format:
+  html:
+    toc: false
+---
+
+I am a Ph.D. student in Carnegie Mellon's Statistics & Data Science department. In May 2024, I graduated magna cum laude from Pomona College with a double major in mathematics and philosophy. Currently, I am working with [Nynke Niezink](https://www.stat.cmu.edu/~nynke/) and [Eva Jaspers](https://www.uu.nl/staff/EJaspers) to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. At Pomona, I primarily worked with [Jo Hardin](https://hardin47.netlify.app), conducting research in both statistical genomics and data science ethics pedagogy. More information on my current and previous research projects can be found on my [research page](research.qmd). 
+ 
+ 
+Outside of research, I enjoy teaching statistics and data science. This Spring, I will be a TA for 36-402: Undergraduate Advanced Data Analysis, which is a capstone course for undergraduate students in CMU's Statistics & Data Science department. A list of my previous teaching experiences and education-related research projects can be found on my [teaching page](teaching.qmd). 
+
+Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D.; for more of my interests, check out my [notebooks page](notebooks.qmd). 
+
+## Education
+
+{{< iconify zondicons:education size=l >}} Ph.D. in Statistics, Carnegie Mellon University, 2024-2029 *(expected)*
+
+{{< iconify zondicons:education size=l >}} B.A. in Mathematics and Philosophy, Pomona College, 2020-2024
+
+## Contact
+
+{{< iconify material-symbols:mail-sharp size=l >}} [scolando\@andrew.cmu.edu](mailto:scolando@andrew.cmu.edu)

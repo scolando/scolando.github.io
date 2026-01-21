@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  title: "Sara Colando"
+  description: "Sara Colando Website, CMU Statistics & Data Science PhD Student"
+  favicon: "images/scotty-dog.png"
+  page-navigation: true
+  
+  
+  navbar:
+    logo: "images/scotty-dog.png"
+    search: true
+    right:
+      - href: about.qmd
+        text: "About"
+      - href: teaching.qmd
+        text: "Teaching"
+      - href: research.qmd
+        text: "Research"
+      - href: notebooks.qmd
+        text: "Notebooks"
+    
+  page-footer:
+    left:
+      - text: "&copy; Copyright 2025, Sara Colando"
+    right:
+      - icon: github
+        href: https://github.com/scolando/sara
+        aria-label: "Quarto GitHub"
+    background: "#f6f5f2"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    backgroundcolor: "#f6f5f2"
+    code-overflow: wrap
+    code-block-bg: "efede9"
+    fontcolor: "#220D07"
+    title-block-banner-color: "#F5F3E0"
+    mainfont: "Lato"
+    toc: true
+
+execute:
+  freeze: auto

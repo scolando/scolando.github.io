@@ -1,0 +1,22 @@
+---
+title: "Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation"
+author: Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano
+date: June-July 2022
+about:
+  template: solana
+---
+
+![](featured.png){width="100%"}
+
+**Overview**: Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, whereas neural networks can streamline the segmentation process to ensure ideal tumor removal and reduce the burden on radiologists. However, these black-box models currently lack explainability, which leads to a lack of trust from different end users like physicians and patients when used to segment brain tumors. Uncertainty Quantification communicates to stakeholders: (a) if and when they should trust model predictions and (b) how fair these predictions are on sample-wide and patient-specific cases. Therefore, Uncertainty Quantification enhances a model's transparency by exposing a model's properties to various stakeholders to better understand, improve, and contest the model's predictions. In this project, we aim to quantify model uncertainty by using a partially Bayesian neural network to communicate where the model is uncertain of its prediction of a pixel being classified as "tumor" or "non-tumor." In particular, we aim to address the following questions:
+
+1.  Where is this model failing, and how is it failing to properly segment the tumor?
+2.  In what cases is the model certain but still making mistakes in tumor segmentation?
+
+Ultimately, we find that the highest uncertainty is at the boundary regions of the model's predicted tumor location and the false negative and false positive pixels are highly clustered. Further, we discover that there is generally higher certainty for accurately classified pixels as well as greater certainty for false negatives than false positives pixels. From our findings, we suggest future work in collaboration with clinicians to better understand why model fails in specific brain regions, and why false positive and false negative results tend to cluster. Moreover, we suggest that the model performance and uncertainty levels across should be compared various subsets (e.g., different tumor histologies, tissue source sites, patient sex, vital status, etc.) to investigate whether there are trends in differential model performance across different demographic groups.
+
+-   Summer 2022 Poster PDF on <a href="Colando-Sara-BDSI-2022-Poster.pdf" target = "_blank">quantifying uncertainty in a tumor segmentation model</a>.
+
+-   Summer 2022 Presentation PDF on <a href="Machine_Learning_Presentation.pdf" target = "_blank">quantifying uncertainty in a tumor segmentation model</a>
+
+*Done through University of Michigan School of Public Health's [Big Data Summer Institute](https://sph.umich.edu/bdsi/) and via a partnership with Dr. Nikola Banovic and Snehal Prabhudesai in University of Michigan School of Computer Science and Engineering.*

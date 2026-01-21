@@ -1,0 +1,16 @@
+---
+title: "Research"
+subtitle: Some of my current and recent research projects.
+format:
+  html:
+    toc: false
+listing: 
+  contents: research
+  sort-ui: [title, date]
+  filter-ui: true
+  type: default
+  sort: 'date desc'
+  fields: [date, author, title, description, image]
+---
+
+## Research Projects

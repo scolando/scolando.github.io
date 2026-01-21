@@ -1,0 +1,82 @@
+/*-- scss:defaults --*/
+
+@import 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap';
+
+$navbar-bg:#f6f5f2;
+$background-color: #f6f5f2;
+$link-color: #006666;
+$hover-color: #006666;
+$font-family: "Lato", sans-serif;
+
+
+
+a{
+  color: $link-color;
+  text-decoration: none;
+  
+  &:hover{
+    color: $hover-color;
+    border-bottom: .05em solid $hover-color;
+  }
+  
+}
+
+p {
+  font-size: 16px; /* 14px/16=0.875em */
+}
+
+h1 h1.title {
+  font-size: 20px; /* 14px/16=0.875em */
+}
+
+h2 {
+  font-size: 19px; /* 14px/16=0.875em */
+}
+
+h3 {
+  font-size: 18px; /* 14px/16=0.875em */
+}
+
+.quarto-about-trestles .about-entity .about-link {
+  color: #004546 !important;
+  text-decoration: none;
+  border: solid 1em; /* Retain existing border if needed, else modify */
+
+  &:hover {
+    color: #006666 !important;
+    border: 0.05em solid $hover-color; /* Adjust if needed */
+  }
+}
+
+.quarto-about-solana .about-entity .about-link {
+  color: #004546 !important;
+  text-decoration: none;
+  border: solid 1em; /* Retain existing border if needed, else modify */
+
+  &:hover {
+    color: #006666 !important;
+    border: 0.05em solid $hover-color; /* Adjust if needed */
+  }
+}
+
+.menu-text {
+  font-size: 16px;
+  color: #220D07;
+  
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.navbar-title {
+  font-size: 20px;
+  color: #220D07;
+  
+&:hover {
+    color: $hover-color;
+  }
+}
+
+.navbar-brand.navbar-brand-logo {
+  margin-right: 0.5em !important;
+}
