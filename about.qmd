@@ -5,16 +5,23 @@ format:
     toc: false
 ---
 
-I am a Ph.D. student in Carnegie Mellon's Statistics & Data Science department. In May 2024, I graduated magna cum laude from Pomona College with a double major in mathematics and philosophy. Currently, I am working with [Nynke Niezink](https://www.stat.cmu.edu/~nynke/) and [Eva Jaspers](https://www.uu.nl/staff/EJaspers) to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. At Pomona, I primarily worked with [Jo Hardin](https://hardin47.netlify.app), conducting research in both statistical genomics and data science ethics pedagogy. More information on my current and previous research projects can be found on my [research page](research.qmd). 
- 
- 
-Outside of research, I enjoy teaching statistics and data science. This Spring, I will be a TA for 36-402: Undergraduate Advanced Data Analysis, which is a capstone course for undergraduate students in CMU's Statistics & Data Science department. A list of my previous teaching experiences and education-related research projects can be found on my [teaching page](teaching.qmd). 
+I am a Ph.D. student in Carnegie Mellon's Statistics & Data Science department. In May 2024, I graduated from Pomona College with a double major in mathematics and philosophy. At Pomona, I conducted statistical genomics and data science ethics pedagogy research with [Jo Hardin](https://hardin47.netlify.app).
 
-Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D.; for more of my interests, check out my [notebooks page](notebooks.qmd). 
+
+Broadly, I am working on methods development and applied questions to uncover latent structures, such as network and text data. I am working with [Nynke Niezink](https://www.stat.cmu.edu/~nynke/) and [Eva Jaspers](https://www.uu.nl/staff/EJaspers) to study structural dependencies in classroom avoidance networks and how a student’s tendency to avoid others and be avoided relates to their position in the friendship network. I am also working with [Eli Ben-Michael](https://ebenmichael.github.io/) on developing a method that leverages multiple measurements to estimate latent variables from text data. More information on my current and previous research projects can be found on my [research page](research.qmd). 
+ 
+ 
+Another interest of mine is teaching statistics and data science and education-related research. In Summer 2026, I am co-instructing Carnehie Mellon's Summer Undergraduate Research Experience in Statistics: Sports Analytics Camp (CMSACamp). CMSACamp is an eight-week research program that focuses on statistics and data science methodology with applications in sports analytics. A list of my previous teaching experiences and education-related research projects can be found on my [teaching page](teaching.qmd). 
+
+<!--
+Another primary interest of mine is philosophy, particularly (feminist) philosophy of science, ethics, and (social) epistemology. I hope to stay engaged in philosophy and, with that, work to better understand and grapple with the ethical dimensions of statistical technologies while completing my Ph.D. in Statistics. For more of my interests, check out my [notebooks page](blog.qmd). 
+-->
 
 ## Education
 
 {{< iconify zondicons:education size=l >}} Ph.D. in Statistics, Carnegie Mellon University, 2024-2029 *(expected)*
+
+{{< iconify zondicons:education size=l >}} M.S. in Statistics, Carnegie Mellon University, 2024-2026
 
 {{< iconify zondicons:education size=l >}} B.A. in Mathematics and Philosophy, Pomona College, 2020-2024
 

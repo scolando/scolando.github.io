@@ -1,9 +1,11 @@
 ---
 title: "Notebooks"
-subtitle: "An ongoing list of notebooks on statistics topics that interest me and a grab bag of other posts."
+subtitle: "Ongoing list of notebooks on statistics topics that interest me and a grab bag of other posts."
 ---
 
+<!--
 - [Common Outcome-Based Algorithmic Fairness Metrics](notebooks/understanding-fairness-metrics.qmd) -- July 24, 2025 [still working on]
+-->
 
 - [Data Analysis Exam Thoughts and Materials](notebooks/DA-exam-materials.qmd) -- June 9, 2025
 

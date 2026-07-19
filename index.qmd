@@ -20,9 +20,15 @@ theme: styles.scss
 
 Hi, and welcome to my website!
 
-I am a Ph.D. student in the Department of Statistics & Data Science at Carnegie Mellon University. I graduated magna cum laude from Pomona College with a double major in Mathematics and Philosophy in Spring 2024.
+I am a Ph.D. student in the Department of Statistics & Data Science at Carnegie Mellon University. I graduated from Pomona College with a double major in Mathematics and Philosophy in Spring 2024. At Pomona, I conducted statistical genomics and data science ethics pedagogy research with [Jo Hardin](https://hardin47.netlify.app).
 
-Currently, I am working with [Nynke Niezink](https://www.stat.cmu.edu/~nynke/) and [Eva Jaspers](https://www.uu.nl/staff/EJaspers) on a continuation of my Advanced Data Analysis project, titled "Why Do Students Avoid Each Other? Investigating Positive and Negative Network Effects." I am also working on a project with [Erin Franke](https://efranke22.github.io) and [Alex Reinhart](https://www.refsmmat.com) in which we analyze statistics students’ writing before and after the emergence of Large Language Models. I have previously been involved in statistical genomics and data science ethics pedagogy research with [Jo Hardin](https://hardin47.netlify.app). 
+Some current projects:
+
+- "Why Do Students Avoid Each Other? Investigating Positive and Negative Network Effects." with [Nynke Niezink](https://www.stat.cmu.edu/~nynke/) and [Eva Jaspers](https://www.uu.nl/staff/EJaspers)
+
+- "Analyzing Students' Statistics Writing Before and After the Emergence of Large Language Models" with [Erin Franke](https://efranke22.github.io), [Gordon Weinberg](https://sites.google.com/andrew.cmu.edu/gordonw/), and [Alex Reinhart](https://www.refsmmat.com)
+
+- Estimating latent variables in text data via multiple measurements with [Eli Ben-Michael](https://ebenmichael.github.io/)
 
 Find out more about my interests and past experiences by browsing this site.
 

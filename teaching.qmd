@@ -6,7 +6,17 @@ format:
     toc: false
 ---
 
-## Teaching Experience
+## Instructor
+
+**As an Instructor at Carnegie Mellon University:**
+
+- Summer Undergraduate Research Experience in Statistics: Sports Analytics Camp (Summer 2026)
+
+[Website](https://36-sure.github.io/2026/) and showcase
+
+This program is an eight-week summer initiative that provides students with hands-on training on statistical and data science methodology. It culminates in a final capstone project, where students work in small groups with external partners to address real-world research questions in sports analytics.
+
+## Teaching Assistant
 
 **As a Graduate Teaching Assistant at Carnegie Mellon University:**
 
@@ -14,7 +24,7 @@ format:
 
 - 36-707: Regression Analysis, *guest lectured on penalized regression* (Fall 2025)
 
-- Carnegie Mellon Sports Analytics Camp, *co-taught four lectures to REU students* (Summer 2025)
+- Summer Undergraduate Research Experience in Statistics: Sports Analytics Camp, *co-taught four lectures to REU students* (Summer 2025)
 
 - 36-226: Introduction to Statistical Inference, *Head TA* (Spring 2025)
 
@@ -34,10 +44,11 @@ format:
 
 - [1-2-1 Summer Bridge Program](https://www.pomona.edu/administration/quantitative-skills-center/math-1-2-1) (Summer 2021)
 
-## Education-Related Research
+## Statistics Education Research
 
-- [Analyzing Statistics Students' Writing Before and After the Emergence of Large Language Models](research/student-llms/students-llms.qmd). Joint work with Erin Franke and Alex Reinhart. Presented work at the Research Satellite poster session during the United States Conference on Teaching Statistics, July 2025. We are currently working on the paper!
-
-- [Teaching Data Cleaning and Wrangling with R’s data.table Package](https://www.causeweb.org/cause/uscots/uscots25/program/posters/poster25). Joint work with Erin Franke. Presented at Posters and Beyond during United States Conference on Teaching Statistics, July 2025.
+- [Analyzing Statistics Students' Writing Before and After the Emergence of Large Language Models](
+https://doi.org/10.48550/arXiv.2606.22735). Joint work with Erin Franke, Gordon Weinberg, and Alex Reinhart. Presented work at multiple statistics education conferences, including USCOTS 2025, ECOTS 2026, and ICOTS 12. Paper is currently under review.
 
 - [Philosophy within Data Science Ethics Courses](https://doi.org/10.1080/26939169.2024.2394542). Joint work with Jo Hardin. Published in the *Journal of Statistics and Data Science Education*, *32*(4), 2024.
+
+- [Teaching Data Cleaning and Wrangling with R’s data.table Package](https://www.causeweb.org/cause/uscots/uscots25/program/posters/poster25). Joint work with Erin Franke. Presented at Posters and Beyond during USCOTS 2025.

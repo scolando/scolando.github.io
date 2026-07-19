@@ -1,10 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Sara Colando"
-  description: "Sara Colando Website, CMU Statistics & Data Science PhD Student"
+  description: 'Sara Colando Website, CMU Statistics & Data Science PhD Student'
   favicon: "images/scotty-dog.png"
+  site-url: https://scolando.github.io/
+  repo-url: https://github.com/scolando/scolando.github.io
   page-navigation: true
   
   
@@ -14,34 +17,35 @@ website:
     right:
       - href: about.qmd
         text: "About"
-      - href: teaching.qmd
-        text: "Teaching"
       - href: research.qmd
         text: "Research"
+      - href: teaching.qmd
+        text: "Teaching"
       - href: notebooks.qmd
         text: "Notebooks"
+    background: "white"
     
   page-footer:
     left:
-      - text: "&copy; Copyright 2025, Sara Colando"
+      - text: "&copy; Copyright 2026, Sara Colando"
     right:
       - icon: github
-        href: https://github.com/scolando/sara
+        href: https://github.com/scolando/scolando.github.io
         aria-label: "Quarto GitHub"
-    background: "#f6f5f2"
+    background: "white"
 
 format:
   html:
     theme:
       - cosmo
       - styles.scss
-    backgroundcolor: "#f6f5f2"
+    backgroundcolor: "white"
     code-overflow: wrap
     code-block-bg: "efede9"
-    fontcolor: "#220D07"
-    title-block-banner-color: "#F5F3E0"
+    fontcolor: "black" # old: 220D07
+    title-block-banner-color: "white"
     mainfont: "Lato"
     toc: true
+    
+# old colors: f6f5f2 and F5F3E0
 
-execute:
-  freeze: auto
