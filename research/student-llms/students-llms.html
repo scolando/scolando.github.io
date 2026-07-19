@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sara Colando, Erin Franke, Alex Reinhart">
-<meta name="dcterms.date" content="2025-07-01">
+<meta name="author" content="Sara Colando, Erin Franke, Gordon Weinberg, Alex Reinhart">
+<meta name="dcterms.date" content="2026-07-01">
 
-<title>Analyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models – Sara Colando</title>
+<title>Analyzing Students’ Statistics Writing Before and After the Emergence of Large Language Models – Sara Colando</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -62,7 +42,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-507a4df18b4f518f1be33bbfeaf1fcfa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8a0873670a75b41b02106a96d590a088.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,12 +100,12 @@ div.csl-indent {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../notebooks.html"> 
@@ -149,54 +129,37 @@ div.csl-indent {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Analyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models</h1>
+<h1 class="title">Analyzing Students’ Statistics Writing Before and After the Emergence of Large Language Models</h1>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Sara Colando, Erin Franke, Alex Reinhart </p>
+             <p>Sara Colando, Erin Franke, Gordon Weinberg, Alex Reinhart </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2025</p>
+      <p class="date">July 1, 2026</p>
     </div>
   </div>
   </div>
 </header> 
       <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><img src="yearly.png" class="img-fluid"></p>
-<p><strong>Overview:</strong> The use of Large Language Models (LLMs) has become ubiquitous in academic settings, particularly in written assignments <span class="citation" data-cites="Baek2024">(<a href="#ref-Baek2024" role="doc-biblioref">Baek et al., 2024</a>)</span>. <span class="citation" data-cites="Reinhart2025">Reinhart et al. (<a href="#ref-Reinhart2025" role="doc-biblioref">2025</a>)</span> has identified systematic differences between human writing and LLMs by leveraging Biber feature and lemma usage rates.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> In this project, we investigate whether (and if so, how) students’ statistics writing has systematically shifted toward being more similar to LLM academic writing since LLMs became widely accessible in 2022. We compare student writing to LLM academic writing through two corpora. The <em>HAP-E Corpus</em> contains 1,227 documents for which ChatGPT-4o (August 2024) was asked to generate the next 500 words (in the same tone and style) when prompted with a piece of academic writing <span class="citation" data-cites="Brown2024">(<a href="#ref-Brown2024" role="doc-biblioref">Brown, 2024</a>)</span>. Meanwhile, the <em>Student Corpus</em> contains 2,353 student reports from three undergraduate statistics courses at Carnegie Mellon University: <em>36-202</em>, <em>36-401</em>, and <em>36-402</em>. <em>36-202: Methods for Statistics &amp; Data Science</em> is a lower division course, which is typically the second statistics course that students take. <em>36-401: Modern Regression</em> and <em>36-402: Advanced Methods for Data Analysis</em> are upper division courses that statistics majors take their junior or senior year. For the reports, students are given a dataset and asked to answer a domain question with a report in the IMRaD format.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> We find that there systematic shift in both the style and vocabulary of students’ statistics reports toward ChatGPT’s academic writing style in both lower and upper division courses at Carnegie Mellon since 2022. In particular, the writing style of students’ introductions and conclusions has become more similar to ChatGPT’s writing style, on average.</p>
-<p><em>We are currently in the progress of figuring out next steps for this project. For more details on our current results and potential next steps, see <a href="https://efranke22.github.io/teaching/llmwriting/llmwriting.html">Erin’s write-up</a>.</em></p>
+<p><img src="LD1-LD2-contours.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> The ability to communicate statistical results to domain experts and stakeholders is an important goal of the undergraduate statistics and data science curriculum. However, as large language models (LLMs) have become more accessible, a major concern is that students are offloading important cognitive tasks to generative AI. Using a corpus of over 1,600 undergraduate students’ data analysis reports from 2021 to 2025, we show how students’ writing style and verb usage have become more similar to that of LLMs. This shift is most pronounced in the first and fifth quintiles of students’ reports, which roughly map onto the introduction and conclusion sections, respectively. At the same time, we demonstrate that students’ writing style has become more similar to that of statistics experts with the addition of LLMs. We end by discussing the implications of our findings for statistics and data science educators. In particular, we propose alternative modes of assessment that still emphasize statistical thinking, such as targeted writing assignments for structuring a report introduction.</p>
+<p><strong>Colando, S.</strong><sup>*</sup>, Franke, E.<sup>*</sup>, Weinberg, G., and Reinhart, A. <a href="https://doi.org/10.48550/arXiv.2606.22735">Analyzing students’ statistics writing before and after the emergence of large language models</a>, submitted, 2026.</p>
+<p>Versions of this work have also been presented at various statistics education conferences:</p>
 <ul>
-<li>USCOTS Research Satellite Presentation on <a href="https://www.causeweb.org/cause/uscots/uscots25/research/posters/8" target="_blank">Analyzing Statistics Students’ Writing Before and After the Emergence of Large Language Models</a>, co-presented with Erin Franke, as part of the TeachStat research group and Carnegie Mellon University.</li>
+<li><p>USCOTS 2025 Research Satellite as a <a href="https://www.causeweb.org/cause/uscots/uscots25/research/posters/8">poster</a></p></li>
+<li><p>ECOTS 2026 as a <a href="https://www.causeweb.org/cause/ecots/ecots26/program/breakouts/7D">breakout session</a></p></li>
+<li><p>ICOTS 12 as both a <a href="https://virtual.oxfordabstracts.com/event/73693/submission/334">main topic session talk</a> and a <a href="https://virtual.oxfordabstracts.com/event/73693/submission/377">contributed session talk</a></p></li>
 </ul>
+<p><sup>*</sup> denotes equal contribution.</p>
 
 
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-Baek2024" class="csl-entry" role="listitem">
-Baek, C., Tate, T., &amp; Warschauer, M. (2024). <span>“ChatGPT seems too good to be true”</span>: College students’ use and perceptions of generative AI. <em>Computers and Education: Artificial Intelligence</em>, <em>7</em>, 100294. <a href="https://doi.org/10.1016/j.caeai.2024.100294">https://doi.org/10.1016/j.caeai.2024.100294</a>
-</div>
-<div id="ref-Biber1988" class="csl-entry" role="listitem">
-Biber, D. (1988). <em>Variation across speech and writing</em>. Cambridge University Press. <a href="https://doi.org/10.1017/cbo9780511621024">https://doi.org/10.1017/cbo9780511621024</a>
-</div>
-<div id="ref-Brown2024" class="csl-entry" role="listitem">
-Brown, D. (2024). Browndw/human-ai-parallel-corpus · datasets at hugging face. In <em>browndw/human-ai-parallel-corpus · Datasets at Hugging Face</em>. <a href="https://huggingface.co/datasets/browndw/human-ai-parallel-corpus">https://huggingface.co/datasets/browndw/human-ai-parallel-corpus</a>
-</div>
-<div id="ref-Reinhart2025" class="csl-entry" role="listitem">
-Reinhart, A., Markey, B., Laudenbach, M., Pantusen, K., Yurko, R., Weinberg, G., &amp; Brown, D. W. (2025). Do LLMs write like humans? Variation in grammatical and rhetorical styles. <em>Proceedings of the National Academy of Sciences</em>, <em>122</em>(8). <a href="https://doi.org/10.1073/pnas.2422455122">https://doi.org/10.1073/pnas.2422455122</a>
-</div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Biber features are a set of 67 rhetorical features (e.g., frequency of past tense, participial clauses, mean word length) used to characterize texts <span class="citation" data-cites="Biber1988">(<a href="#ref-Biber1988" role="doc-biblioref">Biber, 1988</a>)</span>. Lemmas are the “root” form of a word (e.g.&nbsp;<em>ensure</em>, <em>ensured</em>, and <em>ensures</em> all share the same lemma of <em>ensure</em>).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>IMRaD stands for Introduction, Methods, Results, and Discussion. Generally, students are also asked to write a one-page executive summary which is analogous to an abstract in academic writing.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main></div>
+</main></div>
     </div>
   </div>
 </div>
@@ -267,7 +230,7 @@ Reinhart, A., Markey, B., Laudenbach, M., Pantusen, K., Yurko, R., Weinberg, G.,
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/sara\/");
+        var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -600,7 +563,7 @@ Reinhart, A., Markey, B., Laudenbach, M., Pantusen, K., Yurko, R., Weinberg, G.,
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Copyright 2025, Sara Colando
+ © Copyright 2026, Sara Colando
   </li>  
 </ul>
     </div>   
@@ -610,7 +573,7 @@ Reinhart, A., Markey, B., Laudenbach, M., Pantusen, K., Yurko, R., Weinberg, G.,
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/scolando/sara">
+    <a class="nav-link" href="https://github.com/scolando/scolando.github.io">
       <i class="bi bi-github" role="img" aria-label="Quarto GitHub">
 </i> 
     </a>
