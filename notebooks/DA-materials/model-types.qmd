@@ -1408,7 +1408,7 @@ lasso_errors <- sapply(folds$splits, function(split) {
   fit_genedat <- glmnet(train_x, train$Disease, family = "binomial", alpha = 1)
   
   pred <- predict(fit_genedat, newx = test_x, s = cv_genedat$lambda.min,
-                   type = 'response')
+                   type = 'response')[,1]
   
   pred_class <- if_else(pred >= 0.5, 'autism', 'control')
   
