@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-06-09">
 
-<title>Research – Sara Colando</title>
+<title>Data Analysis Exam Thoughts and Materials – Sara Colando</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/scotty-dog.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8a0873670a75b41b02106a96d590a088.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/scotty-dog.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8a0873670a75b41b02106a96d590a088.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-author','listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -140,11 +81,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/scotty-dog.png" alt="" class="navbar-logo light-content">
-    <img src="./images/scotty-dog.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/scotty-dog.png" alt="" class="navbar-logo light-content">
+    <img src="../images/scotty-dog.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sara Colando</span>
     </a>
   </div>
@@ -155,19 +96,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notebooks.html"> 
+    <a class="nav-link" href="../notebooks.html"> 
 <span class="menu-text">Notebooks</span></a>
   </li>  
 </ul>
@@ -187,8 +128,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
-<p class="subtitle lead">Some of my current and recent research projects.</p>
+<h1 class="title">Data Analysis Exam Thoughts and Materials</h1>
 </div>
 
 
@@ -196,6 +136,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 9, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -205,190 +151,138 @@ window.Quarto = {
 </header>
 
 
-<section id="research-projects" class="level2">
-<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
-
+<p>This Spring, at the end of my first-year, I took the Data Analysis (DA) exam, which is the “qualifying” exam for CMU’s Statistics PhD program. The majority of the materials in this notebook are based on the Fall 2024 Regression Analysis (36-707) lecture notes, which can be found <a href="https://www.refsmmat.com/courses/707/lecture-notes/">here</a>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><u><em>A little background on CMU’s DA Exam from the Statistics Graduate Student Handbook</em></u>: “At the conclusion of each Spring Semester the Department administers the ‘Data Analysis Exam,’ which is designed to test students’ ability to apply statistical methods to address a substantive, real problem. Students are given eight hours to complete the exam, during which time they analyze the data and write a [ten page] report to present their analysis and conclusions. The faculty are realistic as to what can be accomplished during the eight-hour period. In grading the exam, the faculty are looking for clear presentation of an appropriate analysis of the data. Emphasis is not placed on technical or mathematical sophistication,” (p.&nbsp;13).</p>
+<section id="how-i-prepared" class="level3">
+<h3 class="anchored" data-anchor-id="how-i-prepared">How I Prepared:</h3>
+<p>In full transparency, beyond taking 36-707 last Fall, I did not do very much to prepare for the DA exam until the week before, where I spent roughly 4-6 hours each day prepping for the exam. That said, I found that a week was sufficient to review important concepts and make templates as well as other notes to use during the exam without being so long that I began to over-complicate concepts and my analysis strategies.</p>
+<p><strong>In the week leading up to the exam, I did the following to prepare:</strong></p>
+<ul>
+<li><p>Read through the 36-707 notes (primarily chapters 4-15) and wrote up notes with full code which could be easily copied and pasted into my own DA exam (<em>my completed notes are available <a href="../notebooks/DA-materials/model-types.html">here</a></em>)</p></li>
+<li><p>Read through completed data analysis exams from some students in upper years of the PhD program</p></li>
+<li><p>Read through my three revised data analysis reports from 36-707 – paying special attention to things I thought were effective and any comments I received on revisions.</p></li>
+<li><p>Made a “recipes” sheet with the technical conditions for different models as well as the steps I would take for each model type (<em>the recipes document I made with one of my cohort-mates is available <a href="../notebooks/DA-materials/recipes.html">here</a></em>)</p></li>
+<li><p>Made a DA report template that I could fill in during the exam, which included rubric items from 36-707 (see <a href="#tbl-rubric" class="quarto-xref">Table&nbsp;1</a>), copied into the relevant report sections.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
+</ul>
+<div id="tbl-rubric" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[40,60]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-rubric-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Rubric items partitioned into their relevant IMRaD report sections (provided in 36-707, Fall 2024).
+</figcaption>
+<div aria-describedby="tbl-rubric-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Report Section</th>
+<th style="text-align: left;">Rubric Items</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Executive Summary</td>
+<td style="text-align: left;"><ul>
+<li><p>Addresses all substantive questions in substantive terms</p></li>
+<li><p>Summarizes methods used and their limitations</p></li>
+<li><p>Written in terms understandable to a subject- area expert, rather than being written for statisticians</p></li>
+<li><p>Can be read and understood without the rest of the report</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Introduction</td>
+<td style="text-align: left;"><ul>
+<li><p>Introduction summarizes questions to be answered and their importance</p></li>
+<li><p>Introduction states theories or alternative explanations to be tested using the data, or outcome to be predicted</p></li>
+<li><p>Introduction describes the source of the data and summarizes its relevance to the problem</p></li>
+<li><p>Briefly states what the analysis achieved and what conclusions can be drawn about the research questions</p></li>
+<li><p>Introduction is readable to an expert on the data’s subject, rather than being written for statisticians</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The Data (Data Summary and Exploratory Data Analysis)</td>
+<td style="text-align: left;"><ul>
+<li><p>Size of dataset is given</p></li>
+<li><p>Meaning of all relevant variables given (with units, when known)</p></li>
+<li><p>Distributions of variables checked; notable outliers explained</p></li>
+<li><p>EDA supports the modeling by exploring relationships and variables that will be useful for model</p></li>
+<li><p>Missing data noted and strategy to account for it explained</p></li>
+<li><p>Limitations of data for the Important limitations of the research questions noted, including problems with mentioned generalizability or omitted variable</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Methods</td>
+<td style="text-align: left;"><ul>
+<li><p>Chosen analysis is clearly connected to substantive question</p></li>
+<li><p>Chosen analysis is explained in terms of the substantive question, not purely statistically</p></li>
+<li><p>Report explains choices made in model building, such as how variables are coded or transformed, or which variables are included</p></li>
+<li><p>Analysis is supported by diagnostics or metrics that assess the model’s appropriateness for the data</p></li>
+<li><p>Report explains why particular hypothesis tests are used, including their conditions and why they are reasonably met</p></li>
+<li><p>Text clearly explains why this analysis was chosen over alternatives</p></li>
+<li><p>Caveats and problems are noted and their potential effect on results explained</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Results</td>
+<td style="text-align: left;"><ul>
+<li><p>Statistical results answer the questions asked</p></li>
+<li><p>Tests and estimates are presented clearly and accurately</p></li>
+<li><p>Statistical methods correctly implemented</p></li>
+<li><p>When hypothesis tests are used, the null hypothesis being tested is clearly stated, as is the null distribution of the statistic and its degrees of freedom (or, if the bootstrap is used, the method used is stated), ideally in APA format.</p></li>
+<li><p>Whenever possible, sizes of appropriate effects are given, not just their significance, and interpreted in substantive terms.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Discussion</td>
+<td style="text-align: left;"><ul>
+<li><p>Summarizes conclusions presented in report</p></li>
+<li><p>Conclusion explains how the practical terms statistical results answer the practical or research questions</p></li>
+<li><p>Conclusion notes any limitations of results and what could be done to address these</p></li>
+<li><p>Conclusion explains how conclusions are noted, if limitations may affect the applicable practical conclusions presented</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other</td>
+<td style="text-align: left;"><ul>
+<li><p>Wherever results appear in report, they are presented with clear measures of uncertainty, such as confidence intervals or standard errors, in APA format</p></li>
+<li><p>References are clearly given to information from outside sources; quotation marks clearly mark any verbatim text from sources</p></li>
+<li><p>Citations formatted in a common style used in statistics journals [I specified the <code>apa.csl</code> file in my YAML header to have my citations done in APA format]</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="especially-helpful-preparations" class="level3">
+<h3 class="anchored" data-anchor-id="especially-helpful-preparations">Especially Helpful Preparations:</h3>
+<ul>
+<li><p>Making the recipes document!!!! On the DA exam, I used used a poisson model with an offset, which is a model I had only implemented and interpreted the results of a few times and might not have remembered if I had not made the recipe document ahead of time.</p></li>
+<li><p>Reviewing APA formatting and practicing interpretations for more complicated scenarios (i.e., when there is an interaction, spline term, etc.).</p></li>
+<li><p>Putting all my code into one document that could be easily copied into my DA report during the eight hour exam. This ended up saving me a ton of time, especially when I was running diagnostics and reporting results. By scaffolding my code ahead of time, I could focus on more substantive parts of my analysis and spend more time actually writing the report, which was much needed since I am a relatively slow writer.</p></li>
+</ul>
+</section>
+<section id="what-couldve-gone-better" class="level3">
+<h3 class="anchored" data-anchor-id="what-couldve-gone-better">What Could’ve Gone Better:</h3>
+<ul>
+<li><p>Better flexibility in how to approach model diagnostics. The partial residuals function I planned to use did not work for Poisson models with offsets (the function has since been fixed). So, I had to pivot to using randomized quantile residuals, which I did not prepare to use and was less familiar with. Fortunately for me, none of the covariates that I included in my model ended up having a non-linear relationship with my outcome variable, but if they had I think it would have taken me more time to think through transformations etc.</p></li>
+<li><p>Spending less time on EDA plots. I spent a while trying to make the axis and strip names (for faceted plots) clean and also toggled the width and height of my figures a lot in an attempt to make them nicely spaced in my DA report. While this probably helped a bit in me passing (since it did make my report <em>look</em> nicer), I wish I had used that time to better narrow down which limitations or caveats of my model and the data I talked about in my report. Some sections of my report like like a laundry list of issues with the data and my analysis rather than a focused discussion of which limitations would impact my conclusions and their generalizablility.</p></li>
+</ul>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1782878400000" data-listing-file-modified-sort="1784469600721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<div class="thumbnail"><a href="./research/student-llms/students-llms.html" class="no-external">
 
-<p class="card-img-top"><img src="research/student-llms/LD1-LD2-contours.png"  class="thumbnail-image card-img"/></p>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/student-llms/students-llms.html" class="no-external">Analyzing Students’ Statistics Writing Before and After the Emergence of Large Language Models</a>
-</h3>
-<div class="delink listing-description"><a href="./research/student-llms/students-llms.html" class="no-external">
-<strong>Overview:</strong> The ability to communicate statistical results to domain experts and stakeholders is an important goal of the undergraduate statistics and data science curriculum.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/student-llms/students-llms.html" class="no-external">
-<div class="listing-date">
-Jul 1, 2026
-</div>
-<div class="listing-author">
-Sara Colando, Erin Franke, Gordon Weinberg, Alex Reinhart
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1764565200000" data-listing-file-modified-sort="1784656158948" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
-<div class="thumbnail"><a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
-
-<p class="card-img-top"><img src="research/avoidance-ties/degree-dist-avoidance.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">Why Do Students Avoid Each Other? Investigating Positive and Negative Network Effects</a>
-</h3>
-<div class="delink listing-description"><a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
-<strong>Overview:</strong> Negative ties can greatly influence both positive network dynamics and the formation of beliefs and behaviors in social networks. Examples of negative ties include…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/avoidance-ties/avoidance-ties.html" class="no-external">
-<div class="listing-date">
-Dec 1, 2025
-</div>
-<div class="listing-author">
-Sara Colando, Nynke Niezink, Eva Jaspers
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1754020800000" data-listing-file-modified-sort="1784489377805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="./research/chip-seq/chip-seq.html" class="no-external">
-
-<p class="card-img-top"><img src="research/chip-seq/FTT-4-rep.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/chip-seq/chip-seq.html" class="no-external">Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions</a>
-</h3>
-<div class="delink listing-description"><a href="./research/chip-seq/chip-seq.html" class="no-external">
-<strong>Overview:</strong> Chromatin immunoprecipitation with high-throughput sequencing (ChIP-seq) provides insights into both the genomic location occupied by the protein of interest and…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/chip-seq/chip-seq.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2025
-</div>
-<div class="listing-author">
-Sara Colando, Danae Schulz, Jo Hardin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1727755200000" data-listing-file-modified-sort="1784489203625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<div class="thumbnail"><a href="./research/data-ethics/data-ethics.html" class="no-external">
-
-<p class="card-img-top"><img src="research/data-ethics/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/data-ethics/data-ethics.html" class="no-external">Philosophy within Data Science Ethics Courses</a>
-</h3>
-<div class="delink listing-description"><a href="./research/data-ethics/data-ethics.html" class="no-external">
-<strong>Overview</strong>: There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/data-ethics/data-ethics.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2024
-</div>
-<div class="listing-author">
-Sara Colando, Jo Hardin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1688184000000" data-listing-file-modified-sort="1747079892000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
-<div class="thumbnail"><a href="./research/horses/horses.html" class="no-external">
-
-<p class="card-img-top"><img src="research/horses/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/horses/horses.html" class="no-external">Clustering Race Horse Movement Profiles to Discover Trends in Injured Horses</a>
-</h3>
-<div class="delink listing-description"><a href="./research/horses/horses.html" class="no-external">
-<strong>Overview</strong>: Between 2009 and 2021, over 7,200 horses died or were euthanized due to racing-related injuries. Using horse profile data and horse tracking data from the NYRA, we…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/horses/horses.html" class="no-external">
-<div class="listing-date">
-Jul 1, 2023
-</div>
-<div class="listing-author">
-Sara Colando, Jonathan Pipping, Kristopher Wilson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1656648000000" data-listing-file-modified-sort="1747079892000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
-<div class="thumbnail"><a href="./research/tumor-mri/tumor-mri.html" class="no-external">
-
-<p class="card-img-top"><img src="research/tumor-mri/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./research/tumor-mri/tumor-mri.html" class="no-external">Implementing a Partially Bayesian Neural Network for Brain Tumor Segmentation</a>
-</h3>
-<div class="delink listing-description"><a href="./research/tumor-mri/tumor-mri.html" class="no-external">
-<strong>Overview</strong>: Radiologists segment tumors from MRI scans to determine treatment plans such as surgical resection or radiation therapy, whereas neural networks can streamline the…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./research/tumor-mri/tumor-mri.html" class="no-external">
-<div class="listing-date">
-Jul 1, 2022
-</div>
-<div class="listing-author">
-Claire Chu, Sara Colando, Dhruba Nandi, Xavier Serrano
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<ol>
+<li id="fn1"><p>Thanks to Alex Reinhart for compiling these!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I did an Executive Summary + IMRaD (Introduction, Methods, Results, and Discussion) report for the exam.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
