@@ -46,6 +46,7 @@ format:
     title-block-banner-color: "white"
     mainfont: "Lato"
     toc: true
+    #page-layout: full
     
 # old colors: f6f5f2 and F5F3E0
 
