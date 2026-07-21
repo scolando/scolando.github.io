@@ -18,3 +18,10 @@ about:
   <strong>Advanced Data Analysis Report (December 2025)</strong>
 </a>
 
+{{< iconify teenyicons:pdf-outline size=l >}} <a href="classroom-avoidance-networks-research.pdf"
+   target="_blank"
+   style="color: black; text-decoration: none;">
+  <strong>Presentation with Each Build Stage (Spring 2026)</strong>
+</a>
+
+
