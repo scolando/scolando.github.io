@@ -12,7 +12,7 @@ format:
 
 - Summer Undergraduate Research Experience in Statistics: Sports Analytics Camp (Summer 2026)
 
-[Website](https://36-sure.github.io/2026/) and showcase
+[Website](https://36-sure.github.io/2026/) and [showcase](https://stat.cmu.edu/cmsac/sure/2026/showcase/)
 
 This program is an eight-week summer initiative that provides students with hands-on training on statistical and data science methodology. It culminates in a final capstone project, where students work in small groups with external partners to address real-world research questions in sports analytics.
 
